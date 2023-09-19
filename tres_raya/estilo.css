@@ -1,0 +1,46 @@
+body{
+    background-color: #000000;
+}
+.container {
+    text-align: center;
+    color: #ff0101;
+   
+  }
+  
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+  }
+  
+  .game-cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #BEBEBE;
+    border: 1px solid #D4AF37;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+  }
+
+  .text{
+    color: #ffda0b;
+  }
+  .game-restart{
+    background-color: #f61b1b;
+    color: #ffda0b;
+    border-radius: 20px;
+    height: 30px;
+    width: 170px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .game-restart:hover{
+    font-size: large;
+    background-color: #c50000;
+    width: 200px;
+    height: 40px;
+    transition: 1s;
+  }
+ 

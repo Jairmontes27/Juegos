@@ -1,0 +1,50 @@
+body {
+    font-family: fantasy;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+   
+  }
+  
+  .game {
+    height: 800px;
+    width: 600px;
+    text-align: center;
+    background-color: #673ccc;
+    padding: 100px;
+    border-radius: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .imagen1{
+  width: 500px;
+  height: 300px;
+
+  
+  
+  }
+
+  .choices {
+    margin-top: 20px;
+  }
+  
+  .choice {
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #545496df;
+    
+  }
+  .result {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  
